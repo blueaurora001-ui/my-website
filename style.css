@@ -143,9 +143,11 @@ ul li a:hover{
 }
 
 .graduation-gallery img {
-    width: 100%
-    border-radius: 10px;
-    transition: 0.3s;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10x auto;
 }
 
 .graduation-gallery img:hover {
@@ -163,9 +165,10 @@ a[href="portfolio.html"] {
 
 .graduation-gallery video {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .wedding-gallery {
@@ -176,9 +179,11 @@ a[href="portfolio.html"] {
 }
 
 .wedding-gallery img {
-    width: 100%
-    border-radius: 10px;
-    transition: 0.3s;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10x auto;
 }
 
 .wedding-gallery img:hover {
@@ -187,9 +192,10 @@ a[href="portfolio.html"] {
 
 .wedding-gallery video {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .engagement-gallery {
@@ -200,9 +206,11 @@ a[href="portfolio.html"] {
 }
 
 .engagement-gallery img {
-    width: 100%
-    border-radius: 10px;
-    transition: 0.3s;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10x auto;
 }
 
 .engagement-gallery img:hover {
@@ -224,9 +232,11 @@ a[href="portfolio.html"] {
 }
 
 .casual-gallery img {
-    width: 100%
-    border-radius: 10px;
-    transition: 0.3s;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .casual-gallery img:hover {
@@ -235,9 +245,10 @@ a[href="portfolio.html"] {
 
 .casual-gallery video {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .contact-container {
@@ -248,10 +259,11 @@ a[href="portfolio.html"] {
 }
 
 .contact-container img {
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    cursor: pointer;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .contact-container img:hover {
