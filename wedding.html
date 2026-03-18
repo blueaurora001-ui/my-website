@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Wedding Page</h1>
+
+<a href="portfolio.html">&#8592; Back to Portfolio</a>
+
+<br><br>
+
+<h2>Photos</h2>
+<section class="gallery Wedding-gallery">
+    <img src="Wedding/wed1.jpg" width="200px">
+</section>
+
+<! -- VIDEO -->
+<h2>Videos</h2>
+<section class="gallery Wedding-gallery">
+   <video controls onclick="openVideo (this.querySelector('sourse').src)"></video>
+     <source src="Wedding/ding1.mp4" type=video/mp4">
+     Your browser does not support the video tag.
+   </video>
+</section>
+
+<div id="lightbox" onclick="closeLightbox()">
+     <span id="closeBtn">&times;</span>
+     <img id="lightbox-img">
+     <video id="lightbox-video" controls></video>
+</div>
+
+<script>
+function openImage(src) {
+    document.getElementById("lightbox").style.display = "flex";
+    document.getElementById("lightbox-img").src = src;
+    document.getElementById("lightbox-img").style.display ="block";
+    document.getElementById("lightbox-video").style.display = "none";
+}
+
+function openVideo(src) {
+    document.getElementById("lightbox").style.display = "flex";
+    let video = document.getElementById("lightbox-video");
+    video.src = scr;
+    video.style.display = "block";
+    document.getElementById("lightbox-img").style.display = "none";
+}
+
+function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+    document.getElementById("lightbox-video").pause();
+}
+</script>
+</body>
+</html>
